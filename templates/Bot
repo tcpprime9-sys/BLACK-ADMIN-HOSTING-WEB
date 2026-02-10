@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>BLACK ADMIN HOSTING PANEL</title>
+    <meta charset="utf-8">
+    <style>
+        /* Main Background and Canvas Settings */
+        body {
+            background: #0d0d0d;
+            color: white;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding-bottom: 50px;
+            overflow-x: hidden;
+        }
+
+        #bg-canvas {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+        }
+
+        /* User Info Bar */
+        .user-bar {
+            background: rgba(0, 0, 0, 0.7);
+            padding: 12px 25px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid #333;
+            backdrop-filter: blur(10px);
+        }
+
+        .logout-btn {
+            background: #ff4d4d;
+            color: white;
+            text-decoration: none;
+            padding: 6px 15px;
+            border-radius: 5px;
+            font-size: 14px;
+            transition: 0.3s;
+        }
+
+        h1 { text-align: center; color: #00ffcc; margin-top: 30px; text-shadow: 0 0 10px rgba(0,255,204,0.5); font-size: 2.5em; }
+
+        /* Upload Section */
+        .upload-section {
+            display: flex;
+            justify-content: center;
+            margin: 40px 15px;
+        }
+
+        .upload-card {
+            background: rgba(25, 25, 25, 0.85);
+            width: 100%;
+            max-width: 650px;
+            padding: 40px;
+            border-radius: 20px;
+            border: 2px dashed #00ffcc;
+            text-align: center;
+            backdrop-filter: blur(10px);
+        }
+
+        .file-label {
+            display: block;
+            padding: 20px;
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid #444;
+            border-radius: 12px;
+            cursor: pointer;
+            margin-bottom: 20px;
+        }
+
+        .upload-btn {
+            width: 100%;
+            padding: 18px;
+            background: #00ffcc;
+            color: #000;
+            border: none;
+            border-radius: 12px;
+            font-size: 18px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        /* Project Box */
+        .box { 
+            border: 1px solid #333; 
+            margin: 20px auto; 
+            padding: 25px; 
+            max-width: 800px; 
+            border-radius: 15px; 
+            background: rgba(21, 21, 21, 0.9); 
+            backdrop-filter: blur(5px); 
+        }
+
+        .button-group {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 15px;
+            margin: 20px 0;
+        }
+
+        .btn-large {
+            padding: 18px;
+            font-size: 16px;
+            font-weight: bold;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: 0.3s;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-decoration: none;
+            width: 100%;
+        }
+
+        .run { background: #1abc9c; color: black; }
+        .stop { background: #e74c3c; color: white; }
+        .restart { background: #f39c12
+        pre { 
+            background: rgba(0, 0, 0, 0.9); 
+            color: #00ff00; 
+            padding: 15px; 
+            height: 350px; 
+            overflow-y: auto; 
+            border-radius: 10px; 
+            font-size: 13px; 
+            border: 1px solid #222; 
+            margin-top: 10px;
+            width: 1
