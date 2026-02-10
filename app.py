@@ -17,7 +17,7 @@ ADMIN_PASSWORD = "BLACK_777"
 
 UPLOAD_FOLDER = "uploads"
 USER_DATA_FILE = "users.json"
-MAX_RUNNING = 1 
+MAX_RUNNING = 5
 
 os.makedirs(UPLOAD_FOLDER, exist_ok=True)
 processes = {}
